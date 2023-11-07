@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.headding {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #1f1d41;
+}
+
+.body {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #86d2f2;
+    height: 100vh;
+    background-size: cover;
+}
+
+.buttons {
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+}
+
+button {
+    outline: 0;
+    border: 0;
+}
+
+.button {
+
+    color: white;
+    background-color: #1f1d41;
+    margin: 1.5rem;
+    border-radius: .6rem;
+    height: 40px;
+    width: 70px;
+}
+
+.traffic-signal {
+
+    border-radius: 40px;
+    width: 6rem;
+    height: 45vh;
+    background-color: #1f1d41;
+}
+
+.traffic-lights {
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: #4b5069;
+    padding-top: 30px;
+    padding-bottom: 21px;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 25px;
+}
+
+
+.container {
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
